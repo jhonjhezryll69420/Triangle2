@@ -3,11 +3,11 @@
 void main()
 {
   int i,j, k;
-  clrscr();
 
-  for(i = 0; i < 24; i++);
+  clrscr();
+  for(i = 0; i < 24; i++)
   {
-     for(j = i; j >= 0; j--);
+     for(j =24-i; j >= 0; j--)
      {
 	printf(" ");
      }
